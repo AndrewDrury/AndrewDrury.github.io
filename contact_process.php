@@ -15,7 +15,7 @@
 
     $subject = "You have a message from your Bitmap Photography.";
 
-    $logo = 'img/favIcon.png';
+    $logo = 'img/favicon.png';
     $link = '#';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
