@@ -172,7 +172,7 @@
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
-.about-section p {
+.about-section p .not-bot {
   margin-bottom: 5rem;
 }
 
@@ -218,8 +218,10 @@
   }
 }
 
-.projects-section .row {
-  margin-top: 100px;
+@media (min-width: 992px) {
+  .projects-section .row {
+    margin-top: 100px;
+  }
 }
 
 .signup-section {
